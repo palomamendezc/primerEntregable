@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Card from './Card'
+// import Card from './Card';
+import Form from './Form';
+
 
 function App() {
 
   return (
     <div className='App'>
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card/>
+      <h2>Hola! Queremos saber tu color preferido </h2>
+      <Form/>
     </div>
   );
 }
